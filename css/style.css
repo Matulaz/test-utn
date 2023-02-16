@@ -1,4 +1,66 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     background: rgb(8,162,190);
-    background: linear-gradient(0deg, rgba(8,162,190,1) 0%, rgba(36,8,136,1) 100%); 
+    background: linear-gradient(0deg, rgba(8,162,190,1) 0%, rgba(36,8,136,1) 100%);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: whitesmoke;
 }
+
+a{
+    text-decoration: none;
+    color: rgb(240, 148, 10);
+}
+
+a:active{
+    color:black;
+}
+
+nav ul li {
+    display: inline;
+    margin:8px;
+}
+
+nav{
+    display:flex;
+    justify-content: center;
+}
+
+i.bi.bi-snow2{
+    float: left;
+    color:red;
+    font-size: 3em;
+}
+
+i.bi.bi-cart4{
+    float:right;
+    font-size:2em;
+    color:rgb(255, 0, 0);
+    opacity:50%;
+}
+
+.title{
+    text-align: center;
+}
+
+footer{
+    background-color:whitesmoke;
+    width:100%;
+    opacity: 90%;
+}
+
+footer ul{
+    display:flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+footer ul li{
+    margin: 12px;
+    color:black;
+}
+
