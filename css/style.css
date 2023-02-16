@@ -47,10 +47,10 @@ i.bi.bi-cart4{
     text-align: center;
 }
 
-footer{
+footer {
     background-color:whitesmoke;
-    width:100%;
     opacity: 90%;
+    margin: -8px;
 }
 
 footer ul{
